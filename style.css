@@ -1,0 +1,28 @@
+:root {
+    --bg-color: #f0f0f0; /* Cor de fundo da página */
+    --primary-color: #333333; /* Cor principal usada no cabeçalho e rodapé */
+    --secondary-color: #ff7f0e; /* Cor secundária, aplicada nos títulos dos gráficos */
+    --font: Arial, sans-serif; /* Fonte padrão da página */
+}
+body {
+    font-family: var(--font); /* Define a fonte como Arial */
+    color: var(--primary-color); /* Define a cor do texto como a cor principal */
+    background-color: var(--bg-color); /* Define a cor de fundo da página */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 100%; /* O cabeçalho ocupa toda a largura da página */
+    background-color: var(--primary-color); /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 1rem; /* Espaçamento interno no cabeçalho */
+}
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    word-wrap: break-word; /* Quebra a linha do texto se necessário */
+}
